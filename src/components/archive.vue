@@ -2,7 +2,7 @@
 <div class = "login box" style = "background-color: brown;">
     <div style = "background-color: white;">
     <div class="dummyInline">
-      <img src="/Users/niyazmohammed1/Documents/exam/sample/src/assets/logo.png" style="width:50px;border-radius: 50%;border:2px solid red;margin-left: -30px;background:white;">
+      <img src="/src/assets/logo.png" style="width:50px;border-radius: 50%;border:2px solid red;margin-left: -30px;background:white;">
     </div>
     <div class="dummyInline" >بيرق أبناء القبائل</div>
     <div class="dummyInline"><i class="fa fa-bars"></i></div>
