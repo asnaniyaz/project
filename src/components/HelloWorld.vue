@@ -2,7 +2,7 @@
 <div class = "login box" style = "background-color: brown;">
   <div style = "background-color: white;">
     <div class="dummyInline">
-      <img src="/Users/niyazmohammed1/Documents/exam/project/src/assets/logo.png">
+      <img src="/project/src/assets/logo.png">
     </div>
     <div class="dummyInline" >بيرق أبناء القبائل</div>
     <div class="dummyInline"><i class="fa fa-bars"></i></div>
@@ -54,9 +54,7 @@
  <div v-for="user in users1" class="panel-group"  id="accordion" style = "padding-left:10px;padding-right :10px;background-color: brown; ">
     <div   class="panel panel-default" style = "background-color: yellow;">
       <div  class="panel-heading" style = "background-color: yellow;">
-        <!--<h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">2 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp asna</a>
-        </h4>-->
+ 
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" :href="'#collapse1'+ user.value">
           <div  class = "row" >
